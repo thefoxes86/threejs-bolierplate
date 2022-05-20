@@ -1,0 +1,20 @@
+{
+  "name": "teleport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.140.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-glsl": "2.5.0",
+    "parcel": "^2.5.0"
+  }
+}
